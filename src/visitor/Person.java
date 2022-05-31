@@ -18,7 +18,7 @@ public class Person implements IPerson
     @Override
     public String visit(GroceryStore groceryStore)
     {
-        String result = "";
+        String result;
         if(groceryStore.getOpeningTime() < NOON)
         {
             result = "I will be going to the Grocery Store this morning at ";
